@@ -1,7 +1,17 @@
-#title{
+#header{
     display: flex;
-    justify-content: center;
+    background-color: #FCE5EF;
+    align-items:center;
+    justify-content: space-around;
 }
+#title{
+    font-family: "Myriad Pro";
+}
+#headlogo{
+    width:182px;
+    height: 182px;
+}
+
 ul{
     display: flex;
     justify-content: space-around;
@@ -11,4 +21,5 @@ ul{
 li{
     align-self: center;
     list-style: none;
+    color: #654f64;
 }
