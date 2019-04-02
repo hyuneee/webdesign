@@ -32,6 +32,11 @@
     font-weight: 600;
     background-color: #fce5ef;
     margin-top: 1px;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 400px;
+    left: 400px
 }
 
 ul{
@@ -40,6 +45,7 @@ ul{
     width: 100%;
     align-self: center;
     margin: 6px;
+
 }
 li{
     align-self: center;
@@ -51,12 +57,24 @@ li{
     font-weight: 600;
 }
 #myface{
-    height: 450px
+    height: 350px;
+    margin-top: 50px;
+    position: relative;
+    left: 25px;
+}
+#box{
+    background-color: #654f64;
+    width: 270px;
+    height: 350px;
+    position: relative;
+    z-index: -1;
+    bottom: 325px;
 }
 #resume{
     font-family: "myriad pro";
     font-size: 20px;
     color: #654f64;
+    border: solid red;
 }
 #edu{
     letter-spacing: 7px;
