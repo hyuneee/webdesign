@@ -24,6 +24,12 @@
     height: 155px;
     margin-top: 14px
 }
+#beginning{
+    background-color: #fce5ef;
+    z-index: -1;
+    display: flex;
+    height: 450px;
+}
 #intro{
     font-family: "myriad pro";
     color: #654f64;
@@ -31,12 +37,26 @@
     letter-spacing: 2.5px;
     font-weight: 600;
     background-color: #fce5ef;
-    margin-top: 1px;
-    display: flex;
-    justify-content: flex-end;
-    position: absolute;
-    top: 400px;
+
     left: 400px
+    width: 1000px;
+    height: 80px;
+    margin-left: 100px;
+    margin-top: 80px;
+    border: solid red;
+
+}
+#about-me{
+    font-family: "myriad pro";
+    font-size: 25px;
+    color: #654f64;
+    width: 600px;
+    height: 200px;
+    margin-left: 1000px;
+    letter-spacing: 3px;
+    margin-top: 190px;
+    border: solid red
+
 }
 
 ul{
@@ -61,20 +81,22 @@ li{
     margin-top: 50px;
     position: relative;
     left: 25px;
+    z-index: 1
 }
-#box{
-    background-color: #654f64;
+#purple-box{
+    background-color: #D4A9CE;
     width: 270px;
     height: 350px;
-    position: relative;
-    z-index: -1;
-    bottom: 325px;
+    position: absolute;
+    top:410px;
+    left: 15px;
+    margin-bottom: 50px;
+
 }
 #resume{
     font-family: "myriad pro";
     font-size: 20px;
     color: #654f64;
-    border: solid red;
 }
 #edu{
     letter-spacing: 7px;
