@@ -1,16 +1,13 @@
 body{
     margin: 0px;
 }
+/*header*/
 #header{
     display: flex;
     background-color: #FCE5EF;
     align-items:center;
     justify-content:center;
     border: solid 50px #FCE5EF;
-}
-a{
-    text-decoration: none;
-    color: #654f64;
 }
 
 #header-center{
@@ -31,11 +28,10 @@ a{
     height: 155px;
     margin-top: 14px
 }
-/*this is the end of header design*/
+/*navigation*/
 ul{
     display: flex;
     justify-content: space-around;
-    width: 100%;
     align-self: center;
     margin: 6px;
     background-color: white;
@@ -49,7 +45,11 @@ li{
     letter-spacing: 5px;
     font-weight: 600;
 }
-/*this is the end of the div tag*/
+a{
+    text-decoration: none;
+    color: #654f64;
+}
+/*introduction*/
 #intro{
     background-color: #FCE5EF;
     display: flex;
@@ -89,7 +89,7 @@ li{
     left: 27px;
     top: 375px;
 }
-/*this is the end of introduction*/
+/*resume*/
 #resume{
     font-family: "myriad pro";
     color: #654f64;
@@ -97,6 +97,7 @@ li{
     letter-spacing: 3px;
     display: flex;
     flex-direction: column;
+    padding-left: 30px
 
 }
 #topic{
@@ -105,7 +106,7 @@ li{
     justify-content: center;
     font-weight: 600;
 }
-/*end of resume*/
+/*contact*/
 #contact{
     font-family: "myriad pro";
     color: #654f64;
@@ -116,7 +117,8 @@ li{
     align-content:center;
     flex-direction: column;
     justify-content: space-around;
-    margin-top: 10px
+    margin-top: 10px;
+    padding-left: 20px
 }
 #contact-title{
     letter-spacing: 5px;
@@ -128,4 +130,3 @@ li{
     letter-spacing: 3px;
     margin-bottom: 15px;
 }
-/*end of contacts*/

@@ -4,6 +4,7 @@ body{
     color: #654f64;
     margin: 0px;
 }
+/*header*/
 nav{
     background-color: white;
     height: 70px;
@@ -34,7 +35,37 @@ li{
     text-decoration: none;
     color: #654f64;
 }
-/*end of header*/
+/*artworks*/
 #poster{
-    height: 400px
+    height: 400px;
+}
+#painting{
+    height: 400px;
+}
+#print{
+    height: 400px;
+}
+
+/*contact*/
+#contact{
+    font-family: "myriad pro";
+    color: #654f64;
+    font-size: 20px;
+    background-color: white;
+    height: 290px;
+    display: flex;
+    align-content:center;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 10px
+}
+#contact-title{
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+#contact-info{
+    display: flex;
+    align-items: center;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
 }
