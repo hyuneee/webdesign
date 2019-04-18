@@ -1,3 +1,6 @@
+body{
+    margin: 0px;
+}
 #header{
     display: flex;
     background-color: #FCE5EF;
@@ -49,9 +52,8 @@ li{
 /*this is the end of the div tag*/
 #intro{
     background-color: #FCE5EF;
-    height: 400px;
     display: flex;
-    align-items: space-around;
+    height:400px;
 }
 #my-face{
     height: 320px;
@@ -70,7 +72,6 @@ li{
     font-family: "myriad pro";
     font-size: 25px;
     color: #654f64;
-    width: 600px;
     height: 200px;
     letter-spacing: 3px;
     margin-top: 0px;
@@ -78,26 +79,28 @@ li{
 #welcome-me{
     display: flex;
     flex-direction: column;
-    margin-left: 80px;
+    margin-left: 60px;
 }
 #purple-box{
     height: 320px;
-    width: 250px;
+    width: 220px;
     background-color: #D4A9CE;
     position: absolute;
     left: 27px;
-    top: 390px;
+    top: 375px;
 }
 /*this is the end of introduction*/
 #resume{
     font-family: "myriad pro";
     color: #654f64;
-    font-size: 20px;
+    font-size: 23px;
+    letter-spacing: 3px;
     display: flex;
     flex-direction: column;
+
 }
 #topic{
-    letter-spacing: 7px;
+    letter-spacing: 10px;
     display: flex;
     justify-content: center;
     font-weight: 600;
@@ -113,7 +116,7 @@ li{
     align-content:center;
     flex-direction: column;
     justify-content: space-around;
-
+    margin-top: 10px
 }
 #contact-title{
     letter-spacing: 5px;
@@ -122,6 +125,7 @@ li{
 #contact-info{
     display: flex;
     align-items: center;
+    letter-spacing: 3px;
     margin-bottom: 15px;
 }
 /*end of contacts*/

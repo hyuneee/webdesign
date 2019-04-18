@@ -1,44 +1,40 @@
 body{
     background-color: #FCE5EF;
+    font-family: "Myriad Pro";
+    color: #654f64;
+    margin: 0px;
 }
-#nav-box{
-    position: absolute;
-    right: 0px;
-    display: flex;
-    justify-content: space-around;
-    margin-right: 20px
-}
-#logo-box{
-    height: 85px;
+nav{
     background-color: white;
-    width: 10000px;
-    position: absolute;
-    z-index: -1;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 ul{
+    background-color: white;
     display: flex;
-    border: solid 0px white;
     justify-content: space-around;
-    z-index: -1;
-
+    width: 500px;
+    font-size: 20px;
 }
 li{
-    list-style: none;
-    color: #654f64;
-    font-family: "myriad pro";
-    font-size: 20pt;
+   list-style: none;
+    font-size: 18pt;
     letter-spacing: 5px;
     font-weight: 600;
-    justify-content: space-around;
-    margin: 18px;
 }
-a{
+#mylogo{
+    position: absolute;
+    height: 60px;
+    top: 5px;
+    left: 15px;
+}
+#links{
     text-decoration: none;
     color: #654f64;
 }
-#logo2nd{
-    height: 69px;
-    position: absolute;
-    left: 25px;
-    top: 16px
+/*end of header*/
+#poster{
+    height: 400px
 }
