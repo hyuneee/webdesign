@@ -45,7 +45,17 @@ li{
 #print{
     height: 400px;
 }
-
+#hand{
+    height: 400px;
+}
+#highlighter{
+    height: 400px;
+}
+#sculpture{
+    height: 400px;
+}
+#artwork{
+}
 /*contact*/
 #contact{
     font-family: "myriad pro";

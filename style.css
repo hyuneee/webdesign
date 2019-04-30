@@ -45,10 +45,18 @@ li{
     letter-spacing: 5px;
     font-weight: 600;
 }
+a:hover{
+    transition-property: color;
+    transition-duration: 500ms;
+    color: #D4A9CE;
+}
 a{
     text-decoration: none;
     color: #654f64;
+    transition-property: color;
+    transition-duration: 500ms;
 }
+
 /*introduction*/
 #intro{
     background-color: #FCE5EF;
@@ -59,7 +67,7 @@ a{
     height: 320px;
     margin-left: 40px;
     margin-top: 30px;
-    z-index: 1
+    z-index: 1;
 }
 #welcome{
     font-family: "myriad pro";
