@@ -31,9 +31,16 @@ li{
     top: 5px;
     left: 15px;
 }
+#links:hover{
+    transition-property: color;
+    transition-duration: 500ms;
+    color: #D4A9CE;
+}
 #links{
     text-decoration: none;
     color: #654f64;
+    transition-property: color;
+    transition-duration: 500ms;
 }
 /*artworks*/
 #poster{
