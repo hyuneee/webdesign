@@ -44,24 +44,37 @@ li{
 }
 /*artworks*/
 #poster{
-    height: 400px;
+    height: 500px;
+    margin-bottom: 40px;
+    margin-right: 30px;
 }
 #painting{
     height: 400px;
+    margin-right: 30px;
+
 }
 #print{
-    height: 400px;
+    height: 500px;
+    margin-right: 30px;
+    margin-bottom: 30px
 }
 #hand{
     height: 400px;
+    margin-right: 30px;
 }
 #highlighter{
-    height: 400px;
+    height: 500px;
+    margin-right: 30px;
+    margin-bottom: 30px
 }
 #sculpture{
     height: 400px;
 }
 #artwork{
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 /*contact*/
 #contact{
@@ -74,15 +87,17 @@ li{
     align-content:center;
     flex-direction: column;
     justify-content: space-around;
-    margin-top: 10px
+    margin-top: 10px;
 }
 #contact-title{
     letter-spacing: 5px;
     font-weight: 600;
+    margin-left: 20px;
 }
 #contact-info{
     display: flex;
     align-items: center;
     letter-spacing: 3px;
     margin-bottom: 15px;
+    margin-left: 20px;
 }
