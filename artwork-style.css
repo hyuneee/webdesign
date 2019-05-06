@@ -44,31 +44,34 @@ li{
 }
 /*artworks*/
 #poster{
-    height: 500px;
-    margin-bottom: 40px;
+    height: 450px;
+    margin-bottom: 30px;
     margin-right: 30px;
 }
 #painting{
-    height: 400px;
+    height: 350px;
+    margin-bottom: 30px;
     margin-right: 30px;
-
 }
 #print{
-    height: 500px;
+    height: 450px;
+    margin-bottom: 30px;
     margin-right: 30px;
-    margin-bottom: 30px
 }
 #hand{
-    height: 400px;
+    height: 350px;
+    margin-bottom: 30px;
     margin-right: 30px;
 }
 #highlighter{
-    height: 500px;
+    height: 450px;
+    margin-bottom: 30px;
     margin-right: 30px;
-    margin-bottom: 30px
 }
 #sculpture{
-    height: 400px;
+    height: 350px;
+    margin-bottom: 30px;
+    margin-right: 30px;
 }
 #artwork{
     margin: 50px;
