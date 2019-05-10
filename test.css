@@ -1,0 +1,110 @@
+body {
+  background: #d8d8d8;
+  text-align: center;
+  margin: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.media {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  background: grey;
+  width: 300px;
+  height: 455px;
+  overflow: hidden;
+}
+
+.media > * {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  /* align-content: stretch; */
+}
+
+.media .read-more {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: auto;
+  font: 0/0 a;
+}
+
+.media:hover .read-more:after {
+  content: "ya";
+  font-weight: bold;
+  font-size: 72px;
+  font-family: sans-serif;
+  line-height: 1;
+}
+
+.media:hover .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-right: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: pink;
+}
+
+.media img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-right: 0;
+  z-index: 0;
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+<div id="posterall">
+       <img id=poster src="media/poster.jpg" alt="POSTER">
+       <p class="postertxt">
+           <em>title: hyukoh-how to find true love  <br> and happiness <br>
+           year: 2018</em>
+       </p>
+   </div>
+*/
+
+
+/*
+.postertxt {
+    position: relative;
+    margin-bottom: 30px;
+    z-index: 1;
+    font-size: 13pt;
+    opacity:0;
+    transition-property: opacity;
+    transition-duration: .5s;
+    height: 450px;
+    width: 290px;
+}
+.postertxt:hover {
+    transition-property: opacity;
+    background-color: #D4A9CE;
+    transition-property: color;
+    transition-duration: 0.5s;
+    opacity: 0.8;
+*/
