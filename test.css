@@ -1,110 +1,121 @@
-body {
-  background: #d8d8d8;
+@media only screen and (max-width: 700px) {
+    body{
+        background-color: red;
+    }
+}
+
+*, *:before, *:after{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:border-box;
+  box-sizing: border-box;
+}
+
+body{
+  background: #fce5ef;
+  font-size: 16px;
+  font-family: 'myriad-pro', sans-serif;
+}
+
+.main-title{
+  color: #2d2d2d;
   text-align: center;
-  margin: 20px;
+  text-transform: capitalize;
+  padding: 0.7em 0;
 }
 
-a {
-  text-decoration: none;
+.container{
+  padding: 1em 0;
+  float: left;
+  width: 50%;
+}
+@media screen and (max-width: 640px){
+  .container{
+    display: block;
+    width: 100%;
+  }
 }
 
-.media {
+@media screen and (min-width: 900px){
+  .container{
+    width: 33.33333%;
+  }
+}
+
+.container .title{
+  color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.content {
   position: relative;
-  display: flex;
-  align-items: center;
-  margin: 0 auto;
-  background: grey;
-  width: 300px;
-  height: 455px;
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
   overflow: hidden;
 }
 
-.media > * {
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: stretch;
-  align-items: center;
-  /* align-content: stretch; */
-}
-
-.media .read-more {
-  position: relative;
-  z-index: 2;
-  width: 100%;
-  height: auto;
-  font: 0/0 a;
-}
-
-.media:hover .read-more:after {
-  content: "ya";
-  font-weight: bold;
-  font-size: 72px;
-  font-family: sans-serif;
-  line-height: 1;
-}
-
-.media:hover .overlay {
+.content .content-overlay {
+  background: rgba(0,0,0,0.7);
   position: absolute;
-  top: 0;
-  left: 0;
-  margin-right: 0;
-  z-index: 1;
+  height: 99%;
   width: 100%;
-  height: 100%;
-  background: pink;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
 }
 
-.media img {
+.content:hover .content-overlay{
+  opacity: 1;
+}
+
+.content-image{
+  width: 100%;
+}
+
+.content-details {
   position: absolute;
-  top: 0;
-  left: 0;
-  margin-right: 0;
-  z-index: 0;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
   width: 100%;
-  height: auto;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-/*
-<div id="posterall">
-       <img id=poster src="media/poster.jpg" alt="POSTER">
-       <p class="postertxt">
-           <em>title: hyukoh-how to find true love  <br> and happiness <br>
-           year: 2018</em>
-       </p>
-   </div>
-*/
-
-
-/*
-.postertxt {
-    position: relative;
-    margin-bottom: 30px;
-    z-index: 1;
-    font-size: 13pt;
-    opacity:0;
-    transition-property: opacity;
-    transition-duration: .5s;
-    height: 450px;
-    width: 290px;
+.content:hover .content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
 }
-.postertxt:hover {
-    transition-property: opacity;
-    background-color: #D4A9CE;
-    transition-property: color;
-    transition-duration: 0.5s;
-    opacity: 0.8;
-*/
+
+.content-details h3{
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.content-details p{
+  color: #fff;
+  font-size: 0.8em;
+}
+
+.fadeIn-bottom{
+  top: 80%;
+}
