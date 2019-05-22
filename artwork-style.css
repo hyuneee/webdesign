@@ -43,6 +43,7 @@ li{
     transition-property: color;
     transition-duration: 500ms;
 }
+
 /*artworks*/
 #artwork{
     display: flex;
