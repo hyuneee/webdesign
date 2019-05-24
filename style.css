@@ -144,15 +144,15 @@ a{
     margin-bottom: 15px;
 }
 
-/*This is the media query*/
+/*media query*/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
 
+/*header*/
     #header-center{
-    width: 300px;
-    height: 185px;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+        margin-bottom: 10px
 }
 
 #title{
@@ -160,16 +160,27 @@ a{
     font-size: 30pt;
     letter-spacing: 18px;
     color: #654f64;
-    margin-top: 130px;
+    margin-top: 20px;
 
 }
 #headlogo{
-    height: 100px;
+    height: 150px;
+    margin-top: 0px;
 }
 
-
+/*nav*/
     li {
      font-size: 15pt;
   }
+/*intro*/
+
+#intro{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+#purple-box{
+        margin-left: 105px;
+    }
 }
 
